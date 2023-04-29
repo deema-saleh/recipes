@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boho.com</title>
+  <link href="style/style2.css" rel="stylesheet" type="text/css">
+  <link href="style/style5.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <style>
+    a:link{
+      text-decoration: none;
+    }
+
+  </style>
+
+  <div class="header">
+    <nav class="navC" role="navigation">
+      <div class="logo">
+        <a href="#">boho</a>
+        <p>recipes and more</p>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">popular</a></li>
+          <li><a href="#">recents</a></li>
+          <li><a href="#">chefs</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+      <div class="dropdown">
+        <button style="margin-left: 20px; font-family: thirdFont; font-weight: bolder;
+          <div class="dropdown"
+        <button style="margin-left: 20px; font-family: thirdFont; font-weight: bolder;
+                 font-size:15px; margin-top: -10px; margin-right: 0px" onclick="myFunction()"
+                class="dropbtn">My profile</button>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="profile.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg>&nbsp;&nbsp;Profile</a>
+          <a href="main.php" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+          </svg>&nbsp;&nbsp;Log out</a>
+
+        </div>
+      </div>
+
+      <div class="search-box">
+        <i class="fa fa-search search-icon"></i>
+        <input type="text" class="searchbox-input" placeholder="Search..." id="searchbox-input1">
+        <i class="fa fa-close close-icon"></i>
+      </div>
+      </div>
+<!--        <input style="margin-top: -10px;margin-left: 100px;"  class="btn" type="text" src="gif/searchIcon.png" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search..">-->
+
+
+        <script>
+          /* When the user clicks on the button,
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+        </script>
+      </ul>
+    </nav>
+  </div>
+
+</head>
+
+<body>
+
+<div style="display: inline-block" >
+  <img src="gif/editCrunchy.jpg" style="width:400px; height: 300px; margin-left: 150px;
+     margin-top: -20px; border-radius: 30px">
+  <div style=" margin-left: 590px; margin-top: -285px; font-family: fifthFont; font-size: 35px; font-weight: bold">
+    Crunchy Cabbage <br>Salad</div>
+  <div style="display: inline-block">
+    <!--        <button style="margin-left: 20px; font-family: thirdFont; font-weight: bolder;-->
+    <!--font-size:15px; margin-top: -10px; margin-right: 0px"><img style="height: 23px; width: 23px;" src="gif/saved.png">&nbsp;&nbsp;Save</button>-->
+    <button style="background-color: #253B41; border-radius: 35px; margin-left: 590px; margin-top: 10px;
+    font-size: 18px;padding-top: 5px; padding-left: 15px; padding-right: 20px;padding-bottom: 10px;
+    color: white;font-family: thirdFont; font-weight: bold"><img style="height: 23px; width: 23px; padding-top: 4px; margin-bottom: -2px" src="gif/saved.png">&nbsp;&nbsp;Save</button>
+    <div>
+      <a href="" style="color: #253B41"> <svg style="margin-left: 590px; margin-top: 25px" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+        <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+      </svg></a>
+      <a href="" style="color: #253B41">
+        <svg style="margin-left: 20px" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-hand-thumbs-down-fill" viewBox="0 0 16 16">
+          <path d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.378 1.378 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51.136.02.285.037.443.051.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.896 1.896 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.856 0-.29-.036-.586-.113-.857a2.094 2.094 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.162 3.162 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28H8c-.605 0-1.07.08-1.466.217a4.823 4.823 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591z"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="star-wrapper">
+      <a href="#" class="fas fa-star s1"></a>
+      <a href="#" class="fas fa-star s2"></a>
+      <a href="#" class="fas fa-star s3"></a>
+      <a href="#" class="fas fa-star s4"></a>
+      <a href="#" class="fas fa-star s5"></a>
+    </div>
+    <script src="https://kit.fontawesome.com/5ea815c1d0.js"></script>
+    <p style="margin-left: 590px; margin-top: -8px; color: grey; font-family: thirdFont; font-weight: bolder"><br><br>This crunchy cabbage salad holds up great in the refrigerator,<br> so you can have a fresh crunchy vegetable side all week long!</p>
+    <p style="margin-left: 590px; margin-top: 10px; color: grey; font-family: thirdFont; font-weight: bolder"><svg style="margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+      <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+      <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+    </svg>prep: 20min</p>
+  </div>
+</div>
+
+<hr style="margin-top: 50px; width: 1000px; margin-left: 150px;  border-color: #FEFFD6; border-style: solid">
+
+<div>
+  <p style="margin-left: 160px; margin-top: 20px; font-family: fifthFont; font-size: 25px; color: #253B41; font-weight: bold">Ingredients</p>
+
+  <div>
+    <p  style=" margin-left: 170px;margin-top: 22px; font-family: thirdFont; font-size: 17px; color: #253B41; font-weight: bold ">6 servings</p>
+
+  </div>
+
+  <p style="margin-left: 210px;margin-top: 25px;  font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">4 cups purple cabbage
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 40px; height: 40px; margin-left: 100px; margin-top: -30px" src="gif/soyS.png"> &nbsp;&nbsp;&nbsp;1 Tbsp soy sauce</p>
+  <div>
+    <img style="width: 30px; height: 30px; margin-left: 160px; margin-top: -30px; margin-right: 10px" src="gif/6000191275569-removebg-preview.png">
+
+  </div>
+
+  <p style="margin-left: 210px;margin-top: 28px;  font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">2 carrots
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 30px; height: 30px; margin-left: 100px; margin-top: -30px" src="gif/honey.png"> &nbsp;&nbsp;&nbsp;
+    1 ½ Tbsp honey</p>
+  <div>
+    <img style="width: 30px; height: 30px; margin-left: 160px; margin-top: -30px" src="gif/carrot.png">
+  </div>
+
+  <p style="margin-left: 210px;margin-top: 28px;  font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">4 green onions
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 30px; height: 30px; margin-left: 100px; margin-top: -30px" src="gif/tahini.png"> &nbsp;&nbsp;&nbsp;
+    ½ Tbsp tahini</p>
+  <div>
+    <img style="width: 40px; height: 30px;margin-left: 155px; margin-top: -30px" src="gif/onion.png">
+  </div>
+
+  <p style="margin-left: 210px;margin-top: 28px;  font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">0.5 bunch fresh cilantro
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;
+    <img style="width: 40px; height: 40px; margin-left: 100px; margin-top: -30px" src="gif/sesamOil.png"> &nbsp;&nbsp;&nbsp;
+    ¼ tsp toasted sesame oil</p>
+  <div>
+    <img style="width: 30px; height: 40px; margin-left: 160px; margin-top: -30px" src="gif/cilantro.png">
+  </div>
+
+  <p style="margin-left: 210px;margin-top: 28px;  font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">½ cup peanuts
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+    <img style="width: 35px; height: 35px; margin-left: 100px; margin-top: -30px" src="gif/carlic.png"> &nbsp;&nbsp;&nbsp;
+    1 clove garlic</p>
+  <div>
+    <img style="width: 35px; height: 30px; margin-left: 160px; margin-top: -30px" src="gif/penutes.png">
+  </div>
+
+  <p style="margin-left: 210px;margin-top: 28px;  font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">¼ cup salad oil
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+    <img style="width: 30px; height: 30px; margin-left: 100px; margin-top: -30px" src="gif/ginger.png"> &nbsp;&nbsp;&nbsp;
+    ½ Tbsp fresh ginger</p>
+  <div>
+    <img style="width: 35px; height: 30px; margin-left: 160px; margin-top: -30px" src="gif/oil.png">
+  </div>
+
+  <p style="margin-left: 210px;margin-top: 28px;  font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">2 Tbsp rice vinegar</p>
+  <div style="margin-bottom: 100px">
+    <img style="width: 35px; height: 30px; margin-left: 160px; margin-top: -30px" src="gif/riceV.png">
+    <hr style="margin-top: 30px; width: 1000px; margin-left: 150px;  border-color: #FEFFD6; border-style: solid">
+    <div style="margin-left: 160px; margin-top: 20px; font-family: fifthFont; font-size: 25px; color: #253B41; font-weight: bold ">Instructions</div>
+    <div>
+      <p  style=" margin-left: 170px;margin-top: 22px; font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">
+        <br> 1- &nbsp;&nbsp;Shred the cabbage as finely as possible. Grate the carrots and slice the green onion.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Pull the cilantro leaves from the stems
+      </p>
+      <p  style=" margin-left: 170px;margin-top: 22px; font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">
+        <br> 2- &nbsp;&nbsp;Add the shredded cabbage, carrots, green onion, cilantro, and peanuts to a large <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bowl. Toss to combine.
+      </p>
+      <p  style=" margin-left: 170px;margin-top: 22px; font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">
+        <br> 3- &nbsp;&nbsp;To make the dressing, add the salad oil, rice vinegar, soy sauce, honey, tahini,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;toasted sesame oil, garlic, and ginger to a blender. Blend until the dressing is smooth<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and creamy.
+      </p>
+      <p  style=" margin-left: 170px;margin-top: 22px; font-family: thirdFont; font-size: 15px; color: #253B41; font-weight: bold ">
+        <br> 4- &nbsp;&nbsp;When you're ready to eat, drizzle the dressing over the salad and toss until coated. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Serve immediately
+      </p>
+      <hr style="margin-top: 30px; width: 1000px; margin-left: 150px;  border-color: #FEFFD6; border-style: solid">
+    </div>
+  </div>
+
+  <hr style="margin-top: 30px; width: 1000px; margin-left: 150px;  border-color: #FEFFD6; border-style: solid">
+</div>
+
+<section class="footer">
+  <div class="footer-left footer-column">
+    <h1>boho</h1>
+    <p>Boho's your hub for yummy recipes! We've got it all - easy-to-make dishes, impressive meals for guests, and fresh flavors to spice up your kitchen game. Seasonal ingredients are our jam! Whether you're a novice cook or a pro in the kitchen, Boho's got the goods to get you cookin'!</p>
+  </div>
+  <div class="footer-center footer-column">
+    <h2>quick links</h2>
+    <ul>
+      <li><a href="#">recents</a></li>
+      <li><a href="#">chefs</a></li>
+      <li><a href="#">popular</a></li>
+    </ul>
+  </div>
+  <div class="footer-right footer-column ">
+    <h2>contact us</h2>
+    <div class="footer-right-link">
+      <i class="fa fa-phone"></i>
+      <p>+970 598850327</p>
+    </div>
+    <div class="footer-right-link">
+      <i class="fa fa-envelope"></i>
+      <p>info@boho.com</p>
+    </div>
+    <div class="footer-right-link">
+      <i class="fa-brands fa-facebook"></i>
+      <p>info@boho.com</p>
+    </div>
+    <div class="footer-right-link">
+      <i class="fa-brands fa-instagram"></i>
+      <p>info@boho.com</p>
+    </div>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&displly=swap");
+
+*{
+    box-sizing:border-box;
+}
+body{
+  padding: 0;
+    margin: 0;
+    font-family: "inter" ,sans-serif;
+    padding: 40px;
+    background: linear-gradient(45deg,navajowhite,#669BBC);
+}
+.Container {
+    min-height:calc(100vh - 40px * 2);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.login-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    padding-left:60px;
+    background-color: white;
+
+}
+.login-right {
+    display: flex;
+
+
+}
+img.login-header{
+    width: 80%;
+    height:60px ;
+}
+
+.login-form-footer {
+          display: flex;
+          margin-top: 70px ;
+          gap: 30px;
+
+}
+a {
+    flex: 6;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 100px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    padding: .6rem;
+    justify-content: center;
+    display: flex;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.login-header{
+    margin-bottom: 50px;
+}
+h1{
+font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.login-form-content{
+     display: flex;
+     flex-direction:column ;
+     gap: 35px;
+
+}
+.login-form{
+    width: 450px;
+}
+.form-item label:not(.checkboxLabel){
+    display: inline-block;
+    background-color: white;
+
+
+}
+input[type="text"] ,
+input[type="password"] {
+    border:1px solid black;
+    height: 55px;
+    padding: 0 2rem;
+    width: 100%;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 100px;
+
+}
+input[type='checkbox']
+{
+    width:15%;
+    height:20px;
+    accent-color: #253B41;
+}
+h1{
+   color: #253B41;
+}
+button{
+padding: 1rem;
+    border-radius: 100px;
+    background:linear-gradient(45deg,#C9343E,cadetblue);
+    text-align: center;
+    text-transform: uppercase;
+    font-size:18px ;
+    height: 55px;
+    cursor: pointer;
+}
+@media (max-width: 1350px) {
+    .login-left
+    {
+        padding: 50px !important;
+    }
+    .login-form{
+        width: 100%;
+    }
+    .login-form-footer{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+@media (max-width: 768px) {
+    body{
+        padding: 20px;
+    }
+    .container
+    {
+        grid-template-columns:auto ;
+    }
+    .login-right{
+        display: none;
+    }
+
+}
+/* mobile query */
+@media(max-width:768px){
+    .login-right{
+        /* display: none; */
+    }
+    
+    .Container {
+        grid-template-columns: 100% 0%;
+}
+}
